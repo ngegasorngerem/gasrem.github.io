@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GasRem (Ngegas Or Ngerem) - Komunitas independen kajian kritis dan kepenulisan reflektif. Tahu kapan bersuara lantang, paham kapan mengendapkan telaah.">
+  <meta name="keywords" content="GasRem, Ngegas Or Ngerem, Komunitas Menulis, Kajian Kritis, Esai, Opini, Literasi, Penulis Muda, Riset, Diskusi Pemikiran">
+  <title>GasRem (Ngegas Or Ngerem) | Komunitas Kajian & Kepenulisan</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Merriweather (Editorial Vibe) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+
+  <!-- ================= TOP NOTICE TICKER ================= -->
+  <aside class="top-ticker" aria-label="Pengumuman Komunitas">
+    <div class="container ticker-container">
+      <span class="ticker-badge"><span class="pulse-dot"></span> WARTA GASREM</span>
+      <div class="ticker-content">
+        <p id="ticker-text">🔥 <strong>Open Call Naskah Antologi Vol. 04:</strong> "Merawat Nalar di Era Hiper-Kecepatan" — Batas pengiriman 28 November 2026! | ☕ <strong>Diskusi Reboan #42:</strong> "Dialektika Gas-Rem dalam Esai Kontemporer" via Zoom & Live Jogja.</p>
+      </div>
+      <div class="ticker-action">
+        <a href="#kirim-naskah" class="ticker-link">Kirim Naskah &rarr;</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="header" id="header">
+    <div class="container navbar-container">
+      <a href="#hero" class="brand-logo" aria-label="Beranda Komunitas GasRem">
+        <div class="brand-symbol">
+          <!-- Logo Dual Dial: Flame (Ngegas) & Compass (Ngerem) -->
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
+            <rect width="48" height="48" rx="14" fill="#0F172A"/>
+            <!-- Dual curved arcs (Tachometer & Caliper) -->
+            <path d="M12 28C12 19.1634 19.1634 12 28 12" stroke="#FF4D2E" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M28 12C36.8366 12 44 19.1634 44 28" stroke="#0D9488" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+            <!-- Stylized Pen Nib combined with Accelerator Needle -->
+            <path d="M24 16L27 26L31 29L24 38L17 29L21 26L24 16Z" fill="#F8FAFC"/>
+            <circle cx="24" cy="27" r="2.5" fill="#FF4D2E"/>
+            <path d="M24 38V42" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="brand-main">
+            <span class="brand-gas">GAS</span><span class="brand-rem">REM</span>
+          </div>
+          <span class="brand-tagline">Ngegas Or Ngerem &bull; Kajian & Kepenulisan</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Menu Navigasi">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Beranda</a></li>
+          <li class="nav-item"><a href="#filosofi" class="nav-link">Filosofi</a></li>
+          <li class="nav-item"><a href="#ruang-kajian" class="nav-link">Ruang Kajian</a></li>
+          <li class="nav-item"><a href="#bengkel-tulisan" class="nav-link">Bengkel Tulisan</a></li>
+          <li class="nav-item"><a href="#dialektika-tool" class="nav-link">Uji Tulisan</a></li>
+          <li class="nav-item"><a href="#program" class="nav-link">Agenda & Program</a></li>
+          <li class="nav-item"><a href="#testimoni" class="nav-link">Suara Penulis</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav CTA & Dark Mode Toggle -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Ganti Mode Tampilan" title="Ganti Mode Terang / Gelap">
+          <span class="theme-icon-light">&#9790;</span>
+          <span class="theme-icon-dark">&#9728;</span>
+        </button>
+        <a href="#gabung" class="btn btn-outline-nav">Gabung Komunitas</a>
+        <a href="#kirim-naskah" class="btn btn-accent-nav">
+          <span class="btn-icon-pen">&#9998;</span> Kirim Naskah
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section" id="hero">
+    <div class="hero-backdrop-glow glow-gas"></div>
+    <div class="hero-backdrop-glow glow-rem"></div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-tag gas-tag">⚡ Ngegas (Akselerasi Ide)</span>
+          <span class="badge-separator">&times;</span>
+          <span class="badge-tag rem-tag">🧘 Ngerem (Kedalaman Telaah)</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Tahu Kapan <span class="highlight-gas">Ngegas</span> Bersuara, 
+          Paham Kapan <span class="highlight-rem">Ngerem</span> Berpikir.
+        </h1>
+
+        <p class="hero-lead">
+          <strong>GasRem (Ngegas Or Ngerem)</strong> adalah ruang kolektif bagi pemikir, periset independen, dan pegiat literasi. Kami mengasah keberanian menuangkan gagasan kritis tanpa takut, sekaligus membentenginya dengan ketelitian metodologi dan etika riset.
+        </p>
+
+        <!-- Dynamic Filter Dial / Quick Mode in Hero -->
+        <div class="hero-cta-group">
+          <a href="#bengkel-tulisan" class="btn btn-primary-gas">
+            <span>Jelajahi Esai & Kajian</span> &rarr;
+          </a>
+          <a href="#dialektika-tool" class="btn btn-secondary-rem">
+            <span>Uji Rasio Gas-Rem Naskah</span> &#9878;
+          </a>
+          <a href="#kirim-naskah" class="btn btn-ghost">
+            Kirim Gagasanmu
+          </a>
+        </div>
+
+        <!-- Social Proof Stats -->
+        <div class="hero-stats-grid">
+          <div class="stat-card">
+            <span class="stat-number" data-target="340">340+</span>
+            <span class="stat-label">Esai & Kajian Terbit</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="58">58</span>
+            <span class="stat-label">Diskusi Meja Bundar</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="1250">1,250+</span>
+            <span class="stat-label">Penulis & Periset Bergabung</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-target="12">12</span>
+            <span class="stat-label">Buku Antologi Dicetak</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual / Interactive Dual Dial Widget -->
+      <div class="hero-interactive-card">
+        <div class="dial-console-header">
+          <span class="console-dot dot-red"></span>
+          <span class="console-dot dot-yellow"></span>
+          <span class="console-dot dot-green"></span>
+          <span class="console-title">Indikator Dialektika GasRem</span>
+        </div>
+        
+        <div class="dial-body">
+          <div class="pedal-selector-tabs" role="tablist">
+            <button class="pedal-tab active" id="tab-gas" data-mode="gas">
+              <span class="tab-bullet gas-bullet"></span> Mode Ngegas
+            </button>
+            <button class="pedal-tab" id="tab-balanced" data-mode="balance">
+              <span class="tab-bullet balance-bullet"></span> Titik Seimbang
+            </button>
+            <button class="pedal-tab" id="tab-rem" data-mode="rem">
+              <span class="tab-bullet rem-bullet"></span> Mode Ngerem
+            </button>
+          </div>
+
+          <!-- Dynamic Mode Output Card -->
+          <div class="dial-dynamic-content" id="dial-content-box">
+            <div class="dial-icon-wrap" id="dial-icon">⚡</div>
+            <div class="dial-mode-badge" id="dial-mode-badge">MODE NGEGAS: AKSELERASI & POLEMIK</div>
+            <h3 class="dial-dynamic-heading" id="dial-heading">"Bila gagasanmu tak memantik perdebatan, mungkin kamu hanya mengulang kebisingan."</h3>
+            <p class="dial-dynamic-desc" id="dial-desc">
+              Kapan waktu <strong>Ngegas</strong>? Saat publik terbuai narasi mapan yang manipulatif. Saat ada ketidakadilan kebijakan yang menuntut advokasi tulisan berani, lugas, dan menghentak kesadaran publik.
+            </p>
+            <div class="dial-action-row">
+              <span class="dial-meta">Karakter Tulisan: Opini Kritis, Satir, Polemik Tajam, Pamflet Intelektual</span>
+              <a href="#bengkel-tulisan" class="dial-quick-btn" id="dial-cta">Lihat Tulisan Ngegas &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Speedometer Visual Gauge -->
+          <div class="gauge-container">
+            <div class="gauge-bar">
+              <div class="gauge-fill" id="gauge-fill" style="width: 85%;"></div>
+            </div>
+            <div class="gauge-labels">
+              <span>0% Rem Absolut</span>
+              <span class="gauge-pointer" id="gauge-pointer-text">85% Gas Power</span>
+              <span>100% Gas Penuh</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FILOSOFI GAS & REM ================= -->
+  <section class="section filosofi-section" id="filosofi">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading">MANIFIESTO DAN LOGIKA KARYA</span>
+        <h2 class="section-title">Mengapa Harus Ada <span class="highlight-gas">Gas</span> dan <span class="highlight-rem">Rem</span>?</h2>
+        <p class="section-desc">
+          Banyak orang menulis hanya bermodal amarah dan sensasi (terlalu ngegas tanpa rem, berakhir jadi hoaks atau fitnah). Sebaliknya, banyak akademisi meneliti sampai bertahun-tahun namun karyanya membeku di laci perpustakaan karena takut bersuara (ngerem total). <strong>GasRem hadir untuk menyeimbangkan keduanya.</strong>
+        </p>
+      </div>
+
+      <div class="philosophy-grid">
+        <!-- Card 1: Ngegas -->
+        <div class="card-pilar pilar-gas">
+          <div class="pilar-header">
+            <div class="pilar-symbol">⚡</div>
+            <span class="pilar-tag">PEDAL KANAN</span>
+          </div>
+          <h3 class="pilar-title">Filosofi "Ngegas"</h3>
+          <h4 class="pilar-subtitle">Keberanian Bersuara & Akselerasi Gagasan</h4>
+          <p class="pilar-text">
+            Ngegas adalah energi kinetik kepenulisan. Ia adalah desakan moral untuk tidak diam saat melihat ketimpangan sosial, kemunduran demokrasi, atau kejumudan budaya. Ngegas menuntut produktivitas: menulis secara tekun, mempublikasikan karya ke ruang publik, dan menantang status quo dengan argumen yang bertenaga.
+          </p>
+          <ul class="pilar-points">
+            <li><strong>Karakteristik:</strong> Agresif dalam pembuktian logis, lugas, menggedor kesadaran.</li>
+            <li><strong>Bentuk Karya:</strong> Esai opini surat kabar, manifesto terbuka, kritik kebijakan, podcast polemik pemikiran.</li>
+            <li><strong>Bahaya Tanpa Rem:</strong> Terjebak ad-hominem, sensasionalisme, dan cacat logika emosional.</li>
+          </ul>
+          <div class="pilar-quote">
+            "Menulis adalah bertarung di panggung gagasan. Jangan ragu menginjak pedal gas ketika kebenaran sedang dibungkam."
+          </div>
+        </div>
+
+        <!-- Card 2: Ngerem -->
+        <div class="card-pilar pilar-rem">
+          <div class="pilar-header">
+            <div class="pilar-symbol">🧘</div>
+            <span class="pilar-tag">PEDAL KIRI</span>
+          </div>
+          <h3 class="pilar-title">Filosofi "Ngerem"</h3>
+          <h4 class="pilar-subtitle">Ketelitian Riset & Keheningan Kontemplatif</h4>
+          <p class="pilar-text">
+            Ngerem adalah jangkar intelektual. Sebelum jari mengetik opini panas di media sosial, seorang anggota GasRem dilatih untuk menekan rem: melakukan verifikasi berlapis, membaca literatur pembanding, memeriksa bias kognitif diri sendiri, dan memastikan tulisan berpijak pada data serta etika kejujuran akademik.
+          </p>
+          <ul class="pilar-points">
+            <li><strong>Karakteristik:</strong> Skeptis terukur, teliti, bersandar pada referensi sahih, rendah hati.</li>
+            <li><strong>Bentuk Karya:</strong> Kajian pustaka mendalam, telaah filosofis, policy paper, resensi kritis multi-perspektif.</li>
+            <li><strong>Bahaya Tanpa Gas:</strong> Berakhir menjadi overthinking, kelumpuhan analisis, dan tak pernah menghasilkan karya.</li>
+          </ul>
+          <div class="pilar-quote">
+            "Sebelum jarimu menyulut api perdebatan, tekanlah rem: pastikan bahan bakarmu adalah fakta, bukan sekadar asumsi."
+          </div>
+        </div>
+      </div>
+
+      <!-- Dialectical Synthesis Box -->
+      <div class="synthesis-banner">
+        <div class="synthesis-badge">TITIK SINTESIS GASREM</div>
+        <div class="synthesis-content">
+          <h3>Seni Menulis GasRem: <em>Agresif dalam Gagasan, Presisi dalam Fakta</em></h3>
+          <p>
+            Komunitas GasRem melatih setiap anggotanya untuk menjadi pengemudi intelektual yang ulung: lihai memacu akselerasi naskah saat situasi darurat kebenaran, sekaligus lihai mengerem saat kabut distorsi informasi sedang tebal.
+          </p>
+        </div>
+        <div class="synthesis-cta">
+          <a href="#gabung" class="btn btn-white">Pelajari Kurikulum Kami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RUANG KAJIAN (FOCUS DOMAINS) ================= -->
+  <section class="section kajian-section" id="ruang-kajian">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">KLASTER KEILMUAN</span>
+        <h2 class="section-title">4 Fokus Ruang Kajian GasRem</h2>
+        <p class="section-desc">
+          Kami tidak hanya membicarakan teknik kepenulisan tata bahasa, melainkan membedah isi kepala dan substansi yang dituliskan melalui empat kluster riset komunitas:
+        </p>
+      </div>
+
+      <div class="kajian-grid">
+        <!-- Kluster 1 -->
+        <article class="kajian-card">
+          <div class="kajian-icon-badge icon-sospol">🏛️</div>
+          <div class="kajian-meta">
+            <span class="kajian-cat">Kluster 01</span>
+            <span class="kajian-activity">Diskusi Bulanan & Policy Brief</span>
+          </div>
+          <h3 class="kajian-title">Sosial-Politik & Kebijakan Publik</h3>
+          <p class="kajian-excerpt">
+            Membongkar retorika politik elektoral, menelisik dampak regulasi terhadap masyarakat rentan, serta mengkaji isu ketimpangan agraria, keadilan iklim, dan anggaran publik berbasis data empiris.
+          </p>
+          <div class="kajian-outputs">
+            <span class="output-pill">&#128196; Brief #18: "Komersialisasi Pendidikan Tinggi"</span>
+            <span class="output-pill">&#128196; Monograf: "Demokrasi Angka vs Demokrasi Substansi"</span>
+          </div>
+          <a href="#bengkel-tulisan" class="kajian-readmore" data-filter="sospol">Jelajahi Kajian Sospol &rarr;</a>
+        </article>
+
+        <!-- Kluster 2 -->
+        <article class="kajian-card">
+          <div class="kajian-icon-badge icon-filsafat">📖</div>
+          <div class="kajian-meta">
+            <span class="kajian-cat">Kluster 02</span>
+            <span class="kajian-activity">Lingkar Baca Reboan</span>
+          </div>
+          <h3 class="kajian-title">Filsafat, Sastra & Humaniora</h3>
+          <p class="kajian-excerpt">
+            Menggali akar ontologis dan etika moralitas modern. Dari dekonstruksi teks kesusastraan nusantara, kritik eksistensialisme di era kecemasan, hingga hermeneutika wacana posmodernisme.
+          </p>
+          <div class="kajian-outputs">
+            <span class="output-pill">&#128196; Esai Panjang: "Membaca Ulang Pramoedya di Era Algoritma"</span>
+            <span class="output-pill">&#128196; Seri Kajian: "Etika Stoikisme: Antara Ketahanan Diri & Apatisme"</span>
+          </div>
+          <a href="#bengkel-tulisan" class="kajian-readmore" data-filter="filsafat">Jelajahi Kajian Humaniora &rarr;</a>
+        </article>
+
+        <!-- Kluster 3 -->
+        <article class="kajian-card">
+          <div class="kajian-icon-badge icon-teknologi">🤖</div>
+          <div class="kajian-meta">
+            <span class="kajian-cat">Kluster 03</span>
+            <span class="kajian-activity">Lab Etika Digital</span>
+          </div>
+          <h3 class="kajian-title">Sains, Kecerdasan Buatan & Etika Teknologi</h3>
+          <p class="kajian-excerpt">
+            Menelaah disrupsi AI generatif terhadap orisinalitas kepenulisan, ekonomi perhatian (*attention economy*), pengawasan massal (*surveillance capitalism*), dan masa depan profesi intelektual.
+          </p>
+          <div class="kajian-outputs">
+            <span class="output-pill">&#128196; Kertas Kerja: "AI dan Kematian Penulis: Mitos atau Kenyataan?"</span>
+            <span class="output-pill">&#128196; Manifesto: "Pedoman Penulis Menghadapi Mesin Bahasa Besar"</span>
+          </div>
+          <a href="#bengkel-tulisan" class="kajian-readmore" data-filter="teknologi">Jelajahi Kajian Teknologi &rarr;</a>
+        </article>
+
+        <!-- Kluster 4 -->
+        <article class="kajian-card">
+          <div class="kajian-icon-badge icon-literasi">🔍</div>
+          <div class="kajian-meta">
+            <span class="kajian-cat">Kluster 04</span>
+            <span class="kajian-activity">Klinik Cek Fakta</span>
+          </div>
+          <h3 class="kajian-title">Literasi Media & Jurnalistik Warga</h3>
+          <p class="kajian-excerpt">
+            Pelatihan investigasi sumber terbuka (OSINT), teknik wawancara mendalam, pencegahan 'sesat pikir' (*logical fallacies*), dan metodologi riset kepustakaan untuk penulisan esai bernas.
+          </p>
+          <div class="kajian-outputs">
+            <span class="output-pill">&#128196; Modul: "Buku Panduan Investigasi Ringan untuk Penulis Pemula"</span>
+            <span class="output-pill">&#128196; Buletin: "Daftar Bias Populer dalam Wacana Publik"</span>
+          </div>
+          <a href="#bengkel-tulisan" class="kajian-readmore" data-filter="literasi">Jelajahi Kajian Media &rarr;</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BENGKEL TULISAN (ARTICLES & ESSAYS) ================= -->
+  <section class="section bengkel-section" id="bengkel-tulisan">
+    <div class="container">
+      <div class="section-header-flex">
+        <div>
+          <span class="sub-heading">KARYA & PUBLIKASI KOMUNITAS</span>
+          <h2 class="section-title">Bengkel Tulisan GasRem</h2>
+          <p class="section-desc">Pilihan tulisan kurasi anggota: mulai dari opini polemik (Ngegas) hingga esai riset kontemplatif (Ngerem).</p>
+        </div>
+        <div class="bengkel-filters" role="group" aria-label="Filter Tulisan">
+          <button class="filter-btn active" data-filter="all">Semua Naskah</button>
+          <button class="filter-btn" data-filter="gas"><span class="bullet-sm gas-bullet"></span> Mode Ngegas (Opini)</button>
+          <button class="filter-btn" data-filter="rem"><span class="bullet-sm rem-bullet"></span> Mode Ngerem (Riset/Esai)</button>
+          <button class="filter-btn" data-filter="kajian"><span class="bullet-sm balance-bullet"></span> Kajian Kebijakan</button>
+        </div>
+      </div>
+
+      <!-- Search & Sort Row -->
+      <div class="article-search-bar">
+        <div class="search-input-wrap">
+          <span class="search-icon">&#128269;</span>
+          <input type="text" id="article-search" placeholder="Cari judul esai, topik kajian, atau nama penulis..." aria-label="Cari tulisan">
+        </div>
+        <div class="search-counter" id="article-count-label">Menampilkan 6 tulisan pilihan</div>
+      </div>
+
+      <!-- Articles Grid -->
+      <div class="articles-grid" id="articles-container">
+        
+        <!-- Article 1: Ngegas -->
+        <article class="article-card" data-category="gas" data-id="1">
+          <div class="card-thumb">
+            <span class="article-mode-badge badge-gas">⚡ NGEGAS &bull; Opini Kritis</span>
+            <div class="card-tag">Pendidikan Tinggi</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="author-name">Rangga Dewantara</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="read-time">5 Menit Baca</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="post-date">4 Nov 2026</span>
+            </div>
+            <h3 class="article-title">
+              <a href="javascript:void(0)" class="open-reader-btn" data-id="1">
+                Komersialisasi Skripsi: Ketika Kampus Berubah Menjadi Pabrik Ijazah & Mahasiswa Jadi Konsumen Pasrah
+              </a>
+            </h3>
+            <p class="article-snippet">
+              Mengapa tugas akhir kini lebih banyak berkutat pada birokrasi tanda tangan ketimbang keberanian memecahkan masalah riil? Saatnya merombak paradigma perguruan tinggi yang makin menjauh dari rakyat.
+            </p>
+            <div class="card-footer">
+              <div class="pedal-indicator">
+                <span class="pedal-label">Rasio Emosi-Argumen:</span>
+                <span class="pedal-score gas-score">85% Gas / 15% Rem</span>
+              </div>
+              <button class="btn-read open-reader-btn" data-id="1">Baca Naskah &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 2: Ngerem -->
+        <article class="article-card" data-category="rem" data-id="2">
+          <div class="card-thumb">
+            <span class="article-mode-badge badge-rem">🧘 NGEREM &bull; Esai Reflektif</span>
+            <div class="card-tag">Filsafat Bahasa</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="author-name">Annisa Larasati</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="read-time">9 Menit Baca</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="post-date">2 Nov 2026</span>
+            </div>
+            <h3 class="article-title">
+              <a href="javascript:void(0)" class="open-reader-btn" data-id="2">
+                Menghidupkan Kesunyian: Sebuah Pembelaan atas Lambatnya Membaca Buku Tebal di Jagat Medsos
+              </a>
+            </h3>
+            <p class="article-snippet">
+              Kecepatan scrolling membunuh imajinasi mendalam kita. Esai ini mengulas bagaimana jeda dan hening (ngerem) adalah prasyarat mutlak untuk melahirkan prosa yang abadi dan memiliki jiwa.
+            </p>
+            <div class="card-footer">
+              <div class="pedal-indicator">
+                <span class="pedal-label">Rasio Emosi-Argumen:</span>
+                <span class="pedal-score rem-score">20% Gas / 80% Rem</span>
+              </div>
+              <button class="btn-read open-reader-btn" data-id="2">Baca Naskah &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 3: Kajian Kebijakan -->
+        <article class="article-card" data-category="kajian" data-id="3">
+          <div class="card-thumb">
+            <span class="article-mode-badge badge-kajian">&#9878; KAJIAN &bull; Policy Brief</span>
+            <div class="card-tag">Tata Kelola Lingkungan</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="author-name">Tim Divisi Riset GasRem</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="read-time">12 Menit Baca</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="post-date">29 Okt 2026</span>
+            </div>
+            <h3 class="article-title">
+              <a href="javascript:void(0)" class="open-reader-btn" data-id="3">
+                Transisi Energi Tanpa Mengorbankan Ruang Hidup: Tinjauan Kritis atas Proyek Pertambangan Nikel Daerah
+              </a>
+            </h3>
+            <p class="article-snippet">
+              Sebuah telaah berbasis data spasial dan laporan warga lokal. Kami mengulas dampak hilirisasi terhadap hilangnya sumber air bersih di 4 kawasan pesisir timur Indonesia.
+            </p>
+            <div class="card-footer">
+              <div class="pedal-indicator">
+                <span class="pedal-label">Rasio Emosi-Argumen:</span>
+                <span class="pedal-score balance-score">50% Gas / 50% Rem</span>
+              </div>
+              <button class="btn-read open-reader-btn" data-id="3">Baca Naskah &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 4: Ngegas -->
+        <article class="article-card" data-category="gas" data-id="4">
+          <div class="card-thumb">
+            <span class="article-mode-badge badge-gas">⚡ NGEGAS &bull; Kritik Budaya</span>
+            <div class="card-tag">Ekonomi Kreatif</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="author-name">Farhan Al-Kautsar</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="read-time">6 Menit Baca</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="post-date">24 Okt 2026</span>
+            </div>
+            <h3 class="article-title">
+              <a href="javascript:void(0)" class="open-reader-btn" data-id="4">
+                Tipu Daya Romantisasi 'Hustle Culture': Menghamba pada Kerja Berlebih demi Kekayaan Para Pemilik Modal
+              </a>
+            </h3>
+            <p class="article-snippet">
+              Siapa yang diuntungkan ketika pemuda bangga tidur hanya tiga jam semalam? Dekonstruksi tajam atas narasi motivasi murahan di jagat korporat dan freelance modern.
+            </p>
+            <div class="card-footer">
+              <div class="pedal-indicator">
+                <span class="pedal-label">Rasio Emosi-Argumen:</span>
+                <span class="pedal-score gas-score">75% Gas / 25% Rem</span>
+              </div>
+              <button class="btn-read open-reader-btn" data-id="4">Baca Naskah &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 5: Ngerem -->
+        <article class="article-card" data-category="rem" data-id="5">
+          <div class="card-thumb">
+            <span class="article-mode-badge badge-rem">🧘 NGEREM &bull; Metodologi</span>
+            <div class="card-tag">Praktik Kepenulisan</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="author-name">Dr. Maya Saraswati</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="read-time">8 Menit Baca</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="post-date">18 Okt 2026</span>
+            </div>
+            <h3 class="article-title">
+              <a href="javascript:void(0)" class="open-reader-btn" data-id="5">
+                Seni Memeriksa Diri: 7 'Rem Mental' yang Wajib Diinjak Sebelum Menekan Tombol Publish
+              </a>
+            </h3>
+            <p class="article-snippet">
+              Bagaimana membedakan antara fakta dengan prasangka tersembunyi? Panduan komprehensif bagi penulis untuk menguji apakah argumen mereka kokoh atau sekadar gelembung emosional.
+            </p>
+            <div class="card-footer">
+              <div class="pedal-indicator">
+                <span class="pedal-label">Rasio Emosi-Argumen:</span>
+                <span class="pedal-score rem-score">10% Gas / 90% Rem</span>
+              </div>
+              <button class="btn-read open-reader-btn" data-id="5">Baca Naskah &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article 6: Kajian Kebijakan -->
+        <article class="article-card" data-category="kajian" data-id="6">
+          <div class="card-thumb">
+            <span class="article-mode-badge badge-kajian">&#9878; KAJIAN &bull; Etika AI</span>
+            <div class="card-tag">Kecerdasan Buatan</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="author-name">Bagus Pratama & Redaksi</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="read-time">10 Menit Baca</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="post-date">12 Okt 2026</span>
+            </div>
+            <h3 class="article-title">
+              <a href="javascript:void(0)" class="open-reader-btn" data-id="6">
+                Antara Bantuan Mesin dan Kemandulan Otak: Menetapkan Batas Etis Penggunaan LLM dalam Kepenulisan Esai
+              </a>
+            </h3>
+            <p class="article-snippet">
+              Hasil survei terhadap 200 mahasiswa dan penulis lepas: sejauh mana ketergantungan pada prompt AI mengikis keunikan diksi dan sensitivitas kemanusiaan dalam sastra kita.
+            </p>
+            <div class="card-footer">
+              <div class="pedal-indicator">
+                <span class="pedal-label">Rasio Emosi-Argumen:</span>
+                <span class="pedal-score balance-score">45% Gas / 55% Rem</span>
+              </div>
+              <button class="btn-read open-reader-btn" data-id="6">Baca Naskah &rarr;</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERACTIVE TOOL: UJI KALKULATOR DIALEKTIKA TULISAN ================= -->
+  <section class="section tool-section" id="dialektika-tool">
+    <div class="container">
+      <div class="tool-wrapper">
+        <div class="tool-header text-center">
+          <span class="tool-badge">&#9878; FITUR SPESIAL GASREM LAB</span>
+          <h2 class="tool-title">Kalkulator Keseimbangan "Gas-Rem" Naskah</h2>
+          <p class="tool-subtitle">
+            Punya draf tulisan yang mau dikirim ke media atau redaksi GasRem? Uji keseimbangannya di sini! Apakah tulisanmu terlalu liar tanpa data (*Kebanyakan Gas*), atau terlalu kaku dan membosankan (*Kelewat Ngerem*)?
+          </p>
+        </div>
+
+        <div class="tool-grid">
+          <!-- Form Input Asesmen -->
+          <div class="tool-form-card">
+            <h3 class="form-title">Parameter Tulisan Anda</h3>
+            
+            <div class="form-group">
+              <label for="draft-title" class="form-label">Judul / Tema Tulisan:</label>
+              <input type="text" id="draft-title" class="form-control" placeholder="Misal: Kegagalan Reformasi Birokrasi di Era Digital" value="Ironi Pendidikan Murah yang Semakin Mahal">
+            </div>
+
+            <div class="form-group">
+              <label for="draft-snippet" class="form-label">Kutipan Paragraf Pembuka / Inti Naskah:</label>
+              <textarea id="draft-snippet" class="form-control" rows="4" placeholder="Tempelkan 1-2 paragraf draf tulisan Anda di sini..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Ceklis Komponen Tulisan Anda:</label>
+              <div class="checklist-grid">
+                <label class="check-item">
+                  <input type="checkbox" id="check-bold-stance" checked>
+                  <span class="check-custom"></span>
+                  <span class="check-text">Memiliki sikap/posisi argumen yang tegas & berani <em>(Unsur Gas)</em></span>
+                </label>
+                <label class="check-item">
+                  <input type="checkbox" id="check-rhetoric" checked>
+                  <span class="check-custom"></span>
+                  <span class="check-text">Menggunakan analogi provokatif / gaya bahasa memikat <em>(Unsur Gas)</em></span>
+                </label>
+                <label class="check-item">
+                  <input type="checkbox" id="check-data">
+                  <span class="check-custom"></span>
+                  <span class="check-text">Menyertakan minimal 2 data empiris / rujukan riset valid <em>(Unsur Rem)</em></span>
+                </label>
+                <label class="check-item">
+                  <input type="checkbox" id="check-counter">
+                  <span class="check-custom"></span>
+                  <span class="check-text">Menjawab argumen tandingan / pandangan lawan <em>(Unsur Rem)</em></span>
+                </label>
+                <label class="check-item">
+                  <input type="checkbox" id="check-solutive" checked>
+                  <span class="check-custom"></span>
+                  <span class="check-text">Menawarkan sintesis / tawaran solusi konstruktif <em>(Keseimbangan)</em></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="slider-group">
+              <label for="slider-tone" class="form-label d-flex justify-between">
+                <span>Dominasi Nada Bahasa Tulisan:</span>
+                <span id="tone-indicator-val" class="text-gas">Lebih Cenderung Provokatif (70% Gas)</span>
+              </label>
+              <input type="range" id="slider-tone" min="0" max="100" value="70" class="custom-range">
+              <div class="range-bounds">
+                <span>100% Akademis Kering (Rem Penuh)</span>
+                <span>Seimbang</span>
+                <span>100% Emosi Meledak (Gas Penuh)</span>
+              </div>
+            </div>
+
+            <button type="button" id="btn-calculate-dialektika" class="btn btn-primary-tool">
+              Hitung Rasio Gas-Rem Naskah Sekarang &rarr;
+            </button>
+          </div>
+
+          <!-- Hasil Diagnosa & Rekomendasi -->
+          <div class="tool-result-card" id="tool-result-box">
+            <div class="result-header">
+              <span class="result-label">DIAGNOSA KESEIMBANGAN NASKAH</span>
+              <h4 class="result-verdict" id="result-status-title">Status: Sedikit Terlalu Ngegas ⚡</h4>
+            </div>
+
+            <div class="dual-bar-display">
+              <div class="ratio-bar-wrap">
+                <div class="ratio-bar gas-bar-fill" id="ratio-gas-bar" style="width: 68%;">
+                  <span>68% Gas</span>
+                </div>
+                <div class="ratio-bar rem-bar-fill" id="ratio-rem-bar" style="width: 32%;">
+                  <span>32% Rem</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="result-feedback-body">
+              <div class="feedback-item">
+                <div class="feedback-icon">&#128161;</div>
+                <div class="feedback-text">
+                  <strong>Evaluasi Redaksi GasRem:</strong>
+                  <p id="result-eval-text">
+                    Naskah Anda memiliki daya hentak awal yang luar biasa dan memikat pembaca. Namun, naskah ini masih kekurangan 'rem data' sehingga berisiko dituding sekadar curahan uneg-uneg emosional.
+                  </p>
+                </div>
+              </div>
+
+              <div class="feedback-item">
+                <div class="feedback-icon">&#9997;</div>
+                <div class="feedback-text">
+                  <strong>Saran Revisi Konkret:</strong>
+                  <p id="result-tips-text">
+                    Tambahkan 1-2 kutipan laporan resmi atau teori sosiologi penunjang pada paragraf ke-3. Redam penggunaan tanda seru berlebih agar argumen Anda tampak dingin namun mematikan!
+                  </p>
+                </div>
+              </div>
+
+              <div class="feedback-item">
+                <div class="feedback-icon">&#127942;</div>
+                <div class="feedback-text">
+                  <strong>Kesesuaian Rubrik:</strong>
+                  <span class="badge-recommendation" id="result-rubrik-target">Cocok untuk: Kolom Opini Kritis Media Massa</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="result-footer-action">
+              <a href="#kirim-naskah" class="btn btn-outline-dark">Lanjutkan Kirim ke Klinik Naskah</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROGRAM & KEGIATAN KOMUNITAS ================= -->
+  <section class="section program-section" id="program">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading">AGENDA & RITUS INTELEKTUAL</span>
+        <h2 class="section-title">Program Rutin Komunitas GasRem</h2>
+        <p class="section-desc">
+          Kami percaya kepenulisan yang berbobot tidak lahir dari isolasi, melainkan dari tempaan dialektika, uji silang antar-penulis, dan pendampingan berkelanjutan.
+        </p>
+      </div>
+
+      <div class="programs-grid">
+        <!-- Program 1 -->
+        <div class="program-card">
+          <div class="program-badge">Mingguan</div>
+          <div class="program-icon">☕</div>
+          <h3 class="program-title">Diskusi Reboan (Kajian Isu)</h3>
+          <p class="program-desc">
+            Pertemuan santai tiap Rabu malam (daring via Zoom & luring di sekretariat). Membedah satu buku babon, isu politik yang sedang viral, atau polemik teori sosial bersama pemantik tamu.
+          </p>
+          <div class="program-meta">
+            <span>&#128197; Tiap Rabu, 19.30 WIB</span>
+            <span>&#128101; Terbuka untuk Umum & Anggota</span>
+          </div>
+          <button class="btn-program-detail" data-program="reboan">Simpan Jadwal / RSVP</button>
+        </div>
+
+        <!-- Program 2 -->
+        <div class="program-card featured-program">
+          <div class="featured-ribbon">Paling Diminati</div>
+          <div class="program-badge">Dua Mingguan</div>
+          <div class="program-icon">📝</div>
+          <h3 class="program-title">Klinik Naskah & Peer-Review</h3>
+          <p class="program-desc">
+            Sesi bedah naskah bersama dewan kurator. Naskah yang dikirim anggota akan dibedah struktur logikanya, kerapian referensi, gaya bahasa, hingga siap tembus ke media massa arus utama atau jurnal ilmiah.
+          </p>
+          <div class="program-meta">
+            <span>&#128197; Sabtu Pekan ke-2 & 4</span>
+            <span>&#128101; Khusus Anggota Terdaftar</span>
+          </div>
+          <button class="btn-program-detail" data-program="klinik">Ikuti Sesi Peer-Review</button>
+        </div>
+
+        <!-- Program 3 -->
+        <div class="program-card">
+          <div class="program-badge">Triwulan</div>
+          <div class="program-icon">🚀</div>
+          <h3 class="program-title">GasRem Writing Bootcamp</h3>
+          <p class="program-desc">
+            Pelatihan intensif 4 pekan: dari perumusan ide (Ngegas), teknik riset kepustakaan & data journalism (Ngerem), hingga pembuatan draf esai panjang siap terbit menjadi buku antologi ber-ISBN.
+          </p>
+          <div class="program-meta">
+            <span>&#128197; Batch Baru: Desember 2026</span>
+            <span>&#128101; Kuota Terbatas (30 Peserta)</span>
+          </div>
+          <button class="btn-program-detail" data-program="bootcamp">Daftar Daftar Tunggu</button>
+        </div>
+
+        <!-- Program 4 -->
+        <div class="program-card">
+          <div class="program-badge">Tahunan</div>
+          <div class="program-icon">📚</div>
+          <h3 class="program-title">Penerbitan Antologi & Zine</h3>
+          <p class="program-desc">
+            Kurasi naskah terbaik anggota sepanjang tahun dicetak menjadi buku antologi dan didistribusikan ke perpustakaan independen, taman baca masyarakat, serta kanal digital open-access.
+          </p>
+          <div class="program-meta">
+            <span>&#128197; Edisi 2026 Segera Terbit</span>
+            <span>&#128101; Kurasi Dewan Redaksi</span>
+          </div>
+          <button class="btn-program-detail" data-program="antologi">Lihat Katalog Buku</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FORM KIRIM NASKAH (SUBMIT WRITING) ================= -->
+  <section class="section submit-section" id="kirim-naskah">
+    <div class="container">
+      <div class="submit-card-wrapper">
+        <div class="submit-info-col">
+          <span class="sub-heading-light">RUANG KURASI KARYA</span>
+          <h2 class="submit-col-title">Punya Ide Bernas yang Butuh Disuarakan?</h2>
+          <p class="submit-col-desc">
+            Dewan Redaksi GasRem menerima tulisan dari anggota maupun khalayak umum. Tulisan yang lolos kurasi akan dipublikasikan di situs utama, didistribusikan lewat buletin mingguan, dan masuk bursa antologi tahunan.
+          </p>
+          
+          <div class="submission-rules">
+            <h4>Pedoman Ringkas Pengiriman:</h4>
+            <ul>
+              <li><strong>Panjang naskah:</strong> 800 - 1.800 kata untuk esai/opini; 2.500 - 4.000 kata untuk kajian mendalam.</li>
+              <li><strong>Keaslian:</strong> Orisinal, belum pernah dimuat di media lain, dan bebas plagiarisme.</li>
+              <li><strong>Karakter GasRem:</strong> Mengandung keberanian argumentasi (Gas) yang ditopang rujukan valid (Rem).</li>
+              <li><strong>Honorarium & Apresiasi:</strong> Penulis naskah pilihan berhak atas royalti digital dan sertifikat kontributor.</li>
+            </ul>
+          </div>
+
+          <div class="curator-note">
+            <span class="curator-avatar">🖋️</span>
+            <div>
+              <strong>Catatan Tim Kurator:</strong>
+              <p>"Kami menyukai tulisan yang menantang akal sehat, bukan tulisan yang sekadar menyenangkan semua orang."</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Submit Form -->
+        <div class="submit-form-col">
+          <form id="submission-form" class="custom-form">
+            <h3 class="form-heading">Formulir Kirim Naskah</h3>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="author-fullname" class="form-label">Nama Lengkap Penulis *</label>
+                <input type="text" id="author-fullname" class="form-control" placeholder="Contoh: Budi Santoso" required>
+              </div>
+              <div class="form-group">
+                <label for="author-email" class="form-label">Alamat Email Aktif *</label>
+                <input type="email" id="author-email" class="form-control" placeholder="budi@contoh.id" required>
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="author-wa" class="form-label">Nomor WhatsApp / Kontak *</label>
+                <input type="tel" id="author-wa" class="form-control" placeholder="081234567890" required>
+              </div>
+              <div class="form-group">
+                <label for="author-rubrik" class="form-label">Pilihan Rubrikasi *</label>
+                <select id="author-rubrik" class="form-control" required>
+                  <option value="" disabled selected>Pilih Karakter Rubrik...</option>
+                  <option value="gas">⚡ Mode Ngegas - Opini Kritis & Polemik</option>
+                  <option value="rem">🧘 Mode Ngerem - Esai Reflektif & Humaniora</option>
+                  <option value="kajian">&#9878; Kajian Kebijakan Publik / Brief Riset</option>
+                  <option value="resensi">📖 Resensi Buku & Ulasan Pemikiran</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="manuscript-title" class="form-label">Judul Naskah *</label>
+              <input type="text" id="manuscript-title" class="form-control" placeholder="Tuliskan judul yang menarik dan mencerminkan esensi tulisan" required>
+            </div>
+
+            <div class="form-group">
+              <label for="manuscript-synopsis" class="form-label">Sinopsis Gagasan & Premis Utama (3-5 kalimat) *</label>
+              <textarea id="manuscript-synopsis" class="form-control" rows="3" placeholder="Jelaskan apa premis Anda: apa masalahnya, apa tawaran argumen Anda, dan mengapa pembaca harus peduli?" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="manuscript-link" class="form-label">Tautan Naskah Lengkap (Google Docs / PDF Drive / Dropbox) *</label>
+              <input type="url" id="manuscript-link" class="form-control" placeholder="https://docs.google.com/document/d/... (Pastikan akses dibagikan 'Viewer')" required>
+              <small class="form-hint">Atau Anda bisa menempelkan langsung isi draf di catatan bawah.</small>
+            </div>
+
+            <div class="form-group">
+              <label for="manuscript-fulltext" class="form-label">Catatan Tambahan / Cuplikan Draf (Opsional):</label>
+              <textarea id="manuscript-fulltext" class="form-control" rows="3" placeholder="Tuliskan bio singkat 2 baris atau pengantar khusus untuk redaksi..."></textarea>
+            </div>
+
+            <div class="form-agreement">
+              <label class="check-item">
+                <input type="checkbox" id="check-originality" required>
+                <span class="check-custom"></span>
+                <span class="check-text">Saya menyatakan naskah ini adalah karya orisinal saya, bebas plagiasi, dan siap mengikuti proses telaah sejawat (peer review) kurator GasRem.</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-submit-full" id="btn-submit-naskah">
+              <span class="btn-text">Kirimkan Naskah ke Dewan Kurator</span>
+              <span class="btn-spinner" style="display: none;"></span>
+            </button>
+            <div id="submit-alert" class="alert-box" style="display: none;"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SUARA PENULIS & TESTIMONI ================= -->
+  <section class="section testimoni-section" id="testimoni">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="sub-heading">KOLABORASI & PENGALAMAN</span>
+        <h2 class="section-title">Apa Kata Mereka yang Mengemudi Bersama GasRem?</h2>
+        <p class="section-desc">Testimoni penulis muda, akademisi, dan pegiat literasi yang tumbuh bersama ekosistem GasRem.</p>
+      </div>
+
+      <div class="testimoni-grid">
+        <div class="testimoni-card">
+          <div class="quote-mark">“</div>
+          <p class="testimoni-text">
+            "Dulu tulisan saya sering ditolak koran karena terlalu emosional dan penuh amarah tanpa basis riset. Di GasRem, saya belajar seni 'Ngerem': menahan diri untuk merapikan metodologi, sehingga ketika saya 'Ngegas', argumen saya tidak lagi bisa dibantah dengan mudah."
+          </p>
+          <div class="testimoni-author">
+            <div class="author-avatar-img">RD</div>
+            <div>
+              <h4 class="author-name">Rifqi Dananjaya</h4>
+              <span class="author-role">Penulis Opini & Alumnus Bootcamp GasRem #02</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimoni-card">
+          <div class="quote-mark">“</div>
+          <p class="testimoni-text">
+            "Sebagai periset akademis, saya terbiasa menulis dengan bahasa dewa yang membosankan. Komunitas GasRem mengajarkan saya bagaimana caranya 'Ngegas': menyederhanakan bahasa agar penelitian saya bisa dinikmati dan dipahami oleh masyarakat umum."
+          </p>
+          <div class="testimoni-author">
+            <div class="author-avatar-img">SA</div>
+            <div>
+              <h4 class="author-name">Siti Aminah, M.Si.</h4>
+              <span class="author-role">Dosen Sosiologi & Kontributor Kajian Kebijakan</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimoni-card">
+          <div class="quote-mark">“</div>
+          <p class="testimoni-text">
+            "Sesi 'Peer Review' di Klinik Naskah adalah emas murni. Tulisan kita tidak dinilai secara menjatuhkan, melainkan dibedah bersama kawan-kawan dengan hangat namun kritis. Ekosistem terbaik bagi siapa pun yang ingin serius di dunia kepenulisan."
+          </p>
+          <div class="testimoni-author">
+            <div class="author-avatar-img">IK</div>
+            <div>
+              <h4 class="author-name">Indra Kusuma</h4>
+              <span class="author-role">Pegiat Literasi Komunitas & Penulis Esai Budaya</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GABUNG KOMUNITAS (CTA SECTION) ================= -->
+  <section class="section cta-section" id="gabung">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-content">
+          <span class="cta-tag">TERBUKA UNTUK UMUM</span>
+          <h2 class="cta-heading">Siap Menempa Nalar dan Menajamkan Pena Anda?</h2>
+          <p class="cta-lead">
+            Bergabunglah dengan ratusan penulis, periset, jurnalis kampus, dan pegiat pemikiran lainnya. Dapatkan akses ke ruang diskusi pekanan, klinik naskah gratis, perpustakaan riset komunitas, dan jaringan publikasi.
+          </p>
+          
+          <div class="membership-benefits">
+            <div class="benefit-item">✓ Akses Gratis Diskusi Reboan & Materi Kajian</div>
+            <div class="benefit-item">✓ Pendampingan Kurator Naskah 1-on-1</div>
+            <div class="benefit-item">✓ Kesempatan Menerbitkan Buku Antologi Ber-ISBN</div>
+            <div class="benefit-item">✓ Jejaring Komunitas Literasi se-Indonesia</div>
+          </div>
+        </div>
+
+        <div class="cta-form-box">
+          <form id="join-form" class="join-quick-form">
+            <h3>Daftar Anggota GasRem</h3>
+            <p>Gratis, tanpa iuran bulanan. Cukup berkomitmen merawat akal sehat.</p>
+            
+            <div class="form-group">
+              <label for="join-name">Nama Panggilan / Lengkap:</label>
+              <input type="text" id="join-name" class="form-control" placeholder="Nama Anda" required>
+            </div>
+            <div class="form-group">
+              <label for="join-email">Email:</label>
+              <input type="email" id="join-email" class="form-control" placeholder="nama@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="join-division">Minat Utama:</label>
+              <select id="join-division" class="form-control" required>
+                <option value="penulisan">Kepenulisan (Esai, Opini, Sastra)</option>
+                <option value="kajian">Kajian Riset & Kebijakan Publik</option>
+                <option value="keduanya">Keduanya (Ingin Belajar Seimbang)</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary-gas w-100" id="btn-join-submit">
+              Gabung Jadi Bagian GasRem &rarr;
+            </button>
+            <div id="join-alert" class="alert-box" style="display: none; margin-top: 12px;"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MODAL BACA NASKAH LENGKAP (INTERACTIVE READER) ================= -->
+  <div class="reader-modal-backdrop" id="reader-modal" aria-hidden="true" role="dialog">
+    <div class="reader-modal-dialog">
+      <div class="reader-modal-header">
+        <div class="reader-mode-tag" id="reader-mode-tag">⚡ MODE NGEGAS</div>
+        <div class="reader-header-actions">
+          <button class="reader-tool-btn" id="font-size-dec" title="Perkecil Font">A-</button>
+          <button class="reader-tool-btn" id="font-size-inc" title="Perbesar Font">A+</button>
+          <button class="reader-tool-btn" id="reader-close-btn" aria-label="Tutup Pembaca">&times;</button>
+        </div>
+      </div>
+      
+      <div class="reader-modal-body" id="reader-modal-content">
+        <!-- Konten naskah dinamis dimasukkan via JS -->
+      </div>
+
+      <div class="reader-modal-footer">
+        <div class="reader-footer-info">
+          <span>Ditayangkan oleh <strong>Redaksi GasRem</strong> &bull; Dilisensikan di bawah CC BY-NC 4.0</span>
+        </div>
+        <div class="reader-footer-actions">
+          <button class="btn btn-outline-sm" id="btn-copy-link">Salin Tautan Naskah</button>
+          <button class="btn btn-primary-sm" id="btn-modal-close-bottom">Tutup Pembaca</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-col footer-brand-col">
+        <div class="footer-brand">
+          <span class="footer-logo-text"><span class="brand-gas">GAS</span><span class="brand-rem">REM</span></span>
+          <span class="footer-sub">(Ngegas Or Ngerem)</span>
+        </div>
+        <p class="footer-about">
+          Komunitas independen kajian kritis dan kepenulisan reflektif. Merawat tradisi berpikir merdeka: agresif dalam menyuarakan gagasan, presisi dalam memverifikasi kebenaran.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+          <a href="#" class="social-icon" aria-label="Twitter / X">X</a>
+          <a href="#" class="social-icon" aria-label="Substack">Substack</a>
+          <a href="#" class="social-icon" aria-label="Telegram">Telegram</a>
+          <a href="#" class="social-icon" aria-label="Spotify Podcast">Podcast</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navigasi Utama</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#filosofi">Filosofi Gas & Rem</a></li>
+          <li><a href="#ruang-kajian">Ruang Kajian Isu</a></li>
+          <li><a href="#bengkel-tulisan">Bengkel Tulisan</a></li>
+          <li><a href="#dialektika-tool">Kalkulator Tulisan</a></li>
+          <li><a href="#program">Program & Agenda</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Rubrikasi Naskah</h4>
+        <ul class="footer-links">
+          <li><a href="#bengkel-tulisan">Mode Ngegas (Opini Kritis)</a></li>
+          <li><a href="#bengkel-tulisan">Mode Ngerem (Esai & Refleksi)</a></li>
+          <li><a href="#bengkel-tulisan">Kajian Kebijakan Publik</a></li>
+          <li><a href="#bengkel-tulisan">Resensi Buku Pemikiran</a></li>
+          <li><a href="#kirim-naskah">Panduan Kurasi Redaksi</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Buletin Mingguan GasRem</h4>
+        <p class="newsletter-desc">Dapatkan rangkuman kajian pilihan dan esai terbaik langsung di kotak masuk Anda setiap Jumat petang.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <div class="newsletter-input-group">
+            <input type="email" placeholder="Ketik email Anda..." class="newsletter-input" required>
+            <button type="submit" class="newsletter-btn">Daftar</button>
+          </div>
+          <span class="newsletter-note">Bebas spam. Berhenti berlangganan kapan pun.</span>
+        </form>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="footer-bottom-flex">
+        <p>&copy; 2026 Komunitas GasRem (Ngegas Or Ngerem). Hak Cipta Gagasan Bebas Disebarluaskan demi Kepentingan Publik.</p>
+        <div class="bottom-links">
+          <a href="#">Kode Etik Penulisan</a>
+          <span>&bull;</span>
+          <a href="#">Pedoman Editorial</a>
+          <span>&bull;</span>
+          <a href="#">Hubungi Redaksi</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
